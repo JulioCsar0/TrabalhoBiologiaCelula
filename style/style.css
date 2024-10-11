@@ -1,0 +1,27 @@
+#conteudo{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#menu{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: rgb(1, 99, 1);
+    color: white;
+    padding: 7px;
+    margin: 0;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.navi{
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
